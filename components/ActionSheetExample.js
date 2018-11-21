@@ -22,6 +22,7 @@ class ActionSheetExample extends Component {
     }, (selectedButtonIndex) => {
       console.log(selectedButtonIndex);
       this.setState({ optionSelected: options[selectedButtonIndex] });
+
     })
   }
 
@@ -32,9 +33,9 @@ class ActionSheetExample extends Component {
         <ContextConsumer>
           {(context => {
             console.log(context);
-            return (
-              <View></View>
-            )
+          return (
+            <View></View>
+          )
           })}
         </ContextConsumer>
         <Button title="Show ActionSheet" onPress={this.toggleVisible} />
