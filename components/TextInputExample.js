@@ -8,9 +8,8 @@ const ExampleInput = styled.TextInput`
   padding: 8px;
 `;
 
-const Heading = styled.Text`
+export const Heading = styled.Text`
   font-size: 24px;
-  /* font-weight: 500; */
   margin-bottom: 10px;
 `;
 

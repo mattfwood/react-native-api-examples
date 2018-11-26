@@ -8,10 +8,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import { WebBrowser } from 'expo';
 import { Examples } from '../navigation/MainTabNavigator';
-
-import { MonoText } from '../components/StyledText';
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
@@ -50,15 +47,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
   },
-  developmentModeText: {
-    marginBottom: 20,
-    color: 'rgba(0,0,0,0.4)',
-    fontSize: 14,
-    lineHeight: 19,
-    textAlign: 'center',
-  },
   contentContainer: {
-    paddingTop: 0,
+    // paddingTop: 50,
   },
   welcomeContainer: {
     alignItems: 'center',

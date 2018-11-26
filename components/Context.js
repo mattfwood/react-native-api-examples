@@ -13,8 +13,8 @@ class ContextProvider extends Component {
     return (
       <AppContext.Provider
         value={{
-          ...this.state,
-          setState: this.setState
+          state: this.state,
+          // setState: this.setState
         }}
       >
         {this.props.children}

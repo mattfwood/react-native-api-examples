@@ -8,13 +8,17 @@ import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import TextInputExample from '../components/TextInputExample';
 import ActionSheetExample from '../components/ActionSheetExample';
+import NotificationsExample from '../components/NotificationsExample';
+import StyledComponentExample from '../components/StyledComponentExample';
 
 export const Examples = {
   TextInputExample,
   ActionSheetExample,
+  NotificationsExample,
+  StyledComponentExample,
 }
 
-const HomeStack = createStackNavigator({
+export const HomeStack = createStackNavigator({
   Home: HomeScreen,
   ...Examples,
 });
