@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { View, TextInput, Text } from 'react-native';
-import styled from 'styled-components';
+import styled from 'styled-components/native';
 import { Container } from './Layout';
 
-const ExampleInput = styled.TextInput`
+export const ExampleInput = styled.TextInput`
   background-color: #FFF;
   padding: 8px;
 `;
